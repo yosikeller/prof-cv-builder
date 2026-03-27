@@ -1,5 +1,5 @@
 const publications = [
-  { authors: "G. Shapira, I. Goldin, E. Artyomov, D. Kim, Y. Keller, and N. Zehngut", title: "GazeShift: Unsupervised Gaze Estimation and Dataset for VR", venue: "CVPR 2026" },
+  { authors: "G. Shapira, I. Goldin, E. Artyomov, D. Kim, Y. Keller, and N. Zehngut", title: "GazeShift: Unsupervised Gaze Estimation and Dataset for VR", venue: "CVPR 2026", badge: "New" },
   { authors: "R. Ferens and Y. Keller", title: "HyperPose: Hypernetwork-Infused Camera Pose Localization", venue: "CVPR 2025" },
   { authors: "S. Dekel, Y. Keller, M. Cadík", title: "Estimating Extreme 3D Image Rotation with Transformer Cross-Attention", venue: "CVPR 2024" },
   { authors: "G. Shapira and Y. Keller", title: "FaceCoresetNet: Differentiable Coresets for Face Set Recognition", venue: "AAAI 2024" },
@@ -31,8 +31,13 @@ const PublicationsSection = () => {
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div className="border-b border-border pb-4 flex-1">
-                <p className="font-display font-semibold text-foreground group-hover:text-accent transition-colors">
+                <p className="font-display font-semibold text-foreground group-hover:text-accent transition-colors inline-flex items-center gap-2">
                   {pub.title}
+                  {pub.badge && (
+                    <span className="text-xs font-body font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent text-accent-foreground">
+                      {pub.badge}
+                    </span>
+                  )}
                 </p>
                 <p className="text-sm text-muted-foreground mt-1">
                   {pub.authors} · <span className="italic">{pub.venue}</span>
