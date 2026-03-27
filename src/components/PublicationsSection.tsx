@@ -1,4 +1,5 @@
 const publications = [
+  { authors: "G. Shapira, I. Goldin, E. Artyomov, D. Kim, Y. Keller, and N. Zehngut", title: "GazeShift: Unsupervised Gaze Estimation and Dataset for VR", venue: "CVPR 2026" },
   { authors: "R. Ferens and Y. Keller", title: "HyperPose: Hypernetwork-Infused Camera Pose Localization", venue: "CVPR 2025" },
   { authors: "S. Dekel, Y. Keller, M. Cadík", title: "Estimating Extreme 3D Image Rotation with Transformer Cross-Attention", venue: "CVPR 2024" },
   { authors: "G. Shapira and Y. Keller", title: "FaceCoresetNet: Differentiable Coresets for Face Set Recognition", venue: "AAAI 2024" },
