@@ -29,6 +29,10 @@ const HeroSection = () => {
                 <Mail className="w-4 h-4 text-accent" />
                 yosi.keller@gmail.com
               </a>
+              <a href="https://yosikeller.github.io/download.html?yosi_keller_cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <FileText className="w-4 h-4 text-accent" />
+                Download CV
+              </a>
             </div>
           </div>
         </div>
