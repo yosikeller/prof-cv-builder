@@ -1,4 +1,4 @@
-import { Mail, MapPin, ExternalLink } from "lucide-react";
+import { Mail, MapPin, FileText } from "lucide-react";
 
 const HeroSection = () => {
   return (
