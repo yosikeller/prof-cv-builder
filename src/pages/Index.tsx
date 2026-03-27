@@ -27,6 +27,9 @@ const Navbar = () => {
               {label}
             </button>
           ))}
+          <a href="https://yosikeller.github.io/download.html?yosi_keller_cv.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+            CV
+          </a>
           <a href="mailto:yosi.keller@gmail.com" className="hover:text-accent transition-colors">
             Contact
           </a>
