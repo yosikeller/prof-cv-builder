@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md bhordehr-b border-border">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-                  <a href="/" className="font-display text-lg font-semibold tracking-tight hover:text-accent transition-colors">Prof. Yosi Keller</a>a></a>
+                  <a href="/" className="font-display text-lg font-semibold tracking-tight hover:text-accent transition-colors">Prof. Yosi Keller</a>
         <div className="hidden sm:flex gap-6 text-sm font-medium text-muted-foreground">
           {[
             ["research", "Research"],
