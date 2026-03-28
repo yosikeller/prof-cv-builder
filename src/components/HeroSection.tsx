@@ -1,4 +1,4 @@
-import { Mail, MapPin, FileText } from "lucide-react";
+import { Mail, MapPin, FileText, Linkedin, GraduationCap } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -32,6 +32,14 @@ const HeroSection = () => {
               <a href="https://yosikeller.github.io/download.html?yosi_keller_cv.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <FileText className="w-4 h-4 text-accent" />
                 CV
+              </a>
+              <a href="https://scholar.google.com/citations?user=2z7wkUIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <GraduationCap className="w-4 h-4 text-accent" />
+                Scholar
+              </a>
+              <a href="https://www.linkedin.com/in/yosi-keller/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Linkedin className="w-4 h-4 text-accent" />
+                LinkedIn
               </a>
             </div>
           </div>
