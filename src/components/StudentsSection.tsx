@@ -3,7 +3,7 @@ import { GraduationCap } from "lucide-react";
 const phdStudents = [
   "Amir Egozi (2012)", "Ayelet Heimowitz (2016)", "Shai Gepstien (2018)",
   "Shachar Mahpud (2019)", "Yuval Nirkin (2022, joint with Tal Hassner)",
-  "Eran Dahan (2024)", "Shay Dekel", "Gil Shapira", "Ron Ferens",
+  "Eran Dahan (2024)", "Shay Dekel (2026)", "Gil Shapira", "Ron Ferens (2026)",
   "Ofer Idan (joint with Yoli Shavit)", "Eli Passov (joint with Nathan Netanyahu)",
 ];
 
