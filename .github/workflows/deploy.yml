@@ -40,8 +40,11 @@ jobs:
           git add package-lock.json
           git diff --staged --quiet || git commit -m "chore: update package-lock.json" && git push
 
-      - name: Build
+      - name: Build static HTML export
         run: npm run build
+
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp dist/index.html dist/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
