@@ -16,7 +16,7 @@ const mscStudents = [
   "Ariel Navot (2017)", "Elad Ben Baruch (2018)", "Avi Ganzeli (2019)",
   "Noam Malali (2020)", "Gabi Azhari (2019)", "Shaked Hiba (2021)",
   "Ofer Idan (2024)", "Ran Sandhus (2025)",
-  "Sagi Habani", "Shlomi Ezra", "Omer Neeman", "Nissim Mahlof",
+  "Nissim Mahlof",
 ];
 
 const StudentsSection = () => {
