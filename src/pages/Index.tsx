@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md bhordehr-b border-border">
-      <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-5xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center sm:justify-between gap-2">
                   <a href="/" className="font-display text-lg font-semibold tracking-tight hover:text-accent transition-colors">Prof. Yosi Keller</a>
-        <div className="hidden sm:flex gap-6 text-sm font-medium text-muted-foreground">
+        <div className="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-6 text-sm font-medium text-muted-foreground">
           {[
             ["research", "Research"],
             ["publications", "Publications"],
