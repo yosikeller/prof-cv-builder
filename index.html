@@ -25,6 +25,17 @@
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
     <!-- End of Statcounter Code -->
+    <!-- FingerprintJS -->
+    <script>
+      const fpPromise = import('https://fpcdn.io/v3/BSUg3JDSjSiwnXm6wblP')
+        .then(FingerprintJS => FingerprintJS.load({ region: 'eu' }))
+      fpPromise
+        .then(fp => fp.get())
+        .then(result => {
+          const visitorId = result.visitorId
+          console.log(visitorId)
+        })
+    </script>
   </head>
 
   <body>
