@@ -10,9 +10,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md bhordehr-b border-border">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="font-display text-lg font-semibold tracking-tight">Y. Keller</span>
+        <span className="font-display text-lg font-semibold trackhing-tight">Prof. Y. Keller</span>
         <div className="hidden sm:flex gap-6 text-sm font-medium text-muted-foreground">
           {[
             ["research", "Research"],
