@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16">
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-accent/30 shadow-lg flex-shrink-0">
             <img
-              src="https://raw.githubusercontent.com/yosikeller/yosikeller.github.io/main/28710167-3a.jpg"
+              src="https://raw.githubusercontent.com/yosikeller/yosikeller.github.io/main/first best.jpg"
               alt="Prof. Yosi Keller"
               className="w-full h-full object-cover"
             />
